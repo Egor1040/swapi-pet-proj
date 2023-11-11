@@ -1,0 +1,44 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 50px;
+    &-help {
+        cursor: pointer;
+        position: absolute;
+        left: 170px;
+        top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        font-weight: bold;
+        width: 36px;
+        height: 36px;
+        background-color: #FFEE58;
+        border-radius: 20px;
+    }
+    &-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__main {
+            line-height: 60px;
+            font-family: 'Star Jedi Hollow';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 64px;
+            color: #FFEE58;
+        }
+        &__medium {
+            margin-top: 10px;
+            letter-spacing: 9px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            text-align: center;
+            color: whitesmoke;
+        }
+    }
+}

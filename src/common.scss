@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../public/fonts/StarJedi.eot');
+    src: url('../public/fonts/StarJedi.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/StarJedi.woff2') format('woff2'),
+        url('../public/fonts/StarJedi.woff') format('woff'),
+        url('../public/fonts/StarJedi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Star Jedi Rounded';
+    src: url('../public/fonts/StarJediRounded.eot');
+    src: url('../public/fonts/StarJediRounded.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/StarJediRounded.woff2') format('woff2'),
+        url('../public/fonts/StarJediRounded.woff') format('woff'),
+        url('../public/fonts/StarJediRounded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Star Jedi Hollow';
+    src: url('../public/fonts/StarJediHollow.eot');
+    src: url('../public/fonts/StarJediHollow.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/StarJediHollow.woff2') format('woff2'),
+        url('../public/fonts/StarJediHollow.woff') format('woff'),
+        url('../public/fonts/StarJediHollow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.twinkling {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: block;
+    background: url(http://www.script-tutorials.com/demos/360/images/stars.png);
+}
